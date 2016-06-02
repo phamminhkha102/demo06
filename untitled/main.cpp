@@ -10,8 +10,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
     VideoCapture cap("Wildlife.wmv");
     int i = 6;
-    i=7;
-    i=75;
+    i=23*3;
     Mat mat;
     while(1){
         if(cap.read(mat))
